@@ -36,7 +36,7 @@ export const SearchForm = () => {
                 type="text" 
                 placeholder="Buscar produtos..."
                 name="q"
-                defaultValue={query ?? undefined}
+                defaultValue={query ?? ''}
                 className="flex-1 bg-transparent text-sm outline-none placeholder:text-zinc-500"
             />
         </form>
